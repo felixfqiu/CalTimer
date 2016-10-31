@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalTimer", "Build\CalTimer.vcxproj", "{4E222FE7-94A7-48DE-95F6-11BDC2CFE80B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Install|x86 = Install|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E222FE7-94A7-48DE-95F6-11BDC2CFE80B}.Install|x86.ActiveCfg = Install|Win32
+		{4E222FE7-94A7-48DE-95F6-11BDC2CFE80B}.Install|x86.Build.0 = Install|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
