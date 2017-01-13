@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<Window caption="0,0,0,32" showshadow="true" shadowsize="4" shadowposition="1,1" shadowcolor="#343434" >
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="12" bold="true" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="微软雅黑" size="14" bold="true" />
+  <Font name="微软雅黑" size="16" />
+  <Font name="微软雅黑" size="16" bold="true" />
+  <Font name="微软雅黑" size="18" />
+  <Font name="微软雅黑" size="18" bold="true" />
+  <Font name="微软雅黑" size="20" />
+  <Font name="微软雅黑" size="20" bold="true" />
+  <Font name="微软雅黑" size="24" />
+  <Font name="微软雅黑" size="24" bold="true" />
+
+  <Default name="VScrollBar" shared="true" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot;" />
+
+  <VerticalLayout bkcolor="ff003400">
+    <HorizontalLayout height="32" bkcolor="ff340000">
+      <Control />
+      <Button name="Txt2Yan" width="96" text="Txt2Yan" textcolor="#ff34ff" hottextcolor="#ffffff" font="1" />      
+      <Control />
+    </HorizontalLayout>
+    <Control name="first_day's_day_of_week" visible="false" userdata="2" />
+    <List name="CalTimerList" userdata="11" header="hidden" vscrollbar="true" itemhotbkcolor="ff003400" />
+  </VerticalLayout>
+</Window>
